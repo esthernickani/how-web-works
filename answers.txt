@@ -1,0 +1,25 @@
+- What is HTTP?
+HTTP is hypertext transfer protocol. It is how browsers and servers communicate.
+- What is a URL?
+URL is universal resource locator. It is the address of a given unique resource on the web.
+- What is DNS?
+DNS is like the phonebook for the web and changes the hostname we type into a corresponding IP address.
+- What is a query string?
+It is a part of the url that takes the form of key-value pairs.
+- What are two HTTP verbs and how are they different?
+GET: it is a request without side effects
+POST: it is a request with side effects
+- What is an HTTP request?
+It is a request made by a client to a named host, which is located on a server
+- What is an HTTP response?
+It is made by a server to a client. The aim of the response is to provide the client with the resource it requested.
+- What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is the name or value pairs that are displayed in the request and response messages of message headers for HTTP
+- What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+Turns somesite.com into the IP address
+connect to the IP address
+on port 80
+using the HTTP protocolask for /some/page.html”
+
+
+{"current_page":1,"limit":20,"next_page":1,"previous_page":1,"results":[{"id":"2gii3LeN7Ed","joke":"Why couldn't the kid see the pirate movie? Because it was rated arrr!"},{"id":"SvzIBAQS0Dd","joke":"What did the pirate say on his 80th birthday? Aye Matey!"},{"id":"QuscibaMClb","joke":"What does a pirate pay for his corn? A buccaneer!"},{"id":"exXSCtkOKe","joke":"Why do pirates not know the alphabet? They always get stuck at \"C\"."},{"id":"SnOf2gqjiqc","joke":"Why are pirates called pirates? Because they arrr!"}],"search_term":"pirate","status":200,"total_jokes":5,"total_pages":1}
